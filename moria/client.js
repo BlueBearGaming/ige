@@ -20,7 +20,7 @@ var Client = IgeClass.extend({
 
 		// Load the textures we want to use
 		this.textures = {
-			grassSheet: new IgeCellSheet('../assets/textures/tiles/grassSheet.png', 4, 1)
+			grassSheet: new IgeCellSheet('../examples/assets/textures/tiles/grassSheet.png', 4, 1)
 		};
 
 		ige.on('texturesLoaded', function () {
